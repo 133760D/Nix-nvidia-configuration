@@ -5,6 +5,7 @@
   # Don't forget to set a password with ‘passwd’.
   users.users.main = {
     isNormalUser = true;
+    home = "/home/main";
     description = "main";
     extraGroups = [ "networkmanager" "wheel" ];
   };
