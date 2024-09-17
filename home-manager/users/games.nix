@@ -6,7 +6,7 @@
     isNormalUser = true;
     home = "/home/games";
     description = "Gaming account";
-    extraGroups = [ "wheel" ];
+    extraGroups = [ "wheel" ]; #remove wheel if you don't want sudo privileges
   };
   
   home-manager.users.games = {
